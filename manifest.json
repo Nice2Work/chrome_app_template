@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Nice2Write",
+  "version": "0.1.0",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "16": "public/img/icon_16.png",
+    "128": "public/img/icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}
