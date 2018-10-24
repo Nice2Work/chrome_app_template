@@ -1,12 +1,12 @@
-chrome.app.runtime.onLaunched.addListener(function() {
+chrome.app.runtime.onLaunched.addListener(function () {
   // Center the window on the screen.
   var screenWidth = screen.availWidth;
   var screenHeight = screen.availHeight;
   var width = 800;
   var height = 600;
 
-  chrome.app.window.create("index_chrome.html", {
-    id: "nice2write",
+  chrome.app.window.create("index.html", {
+    id: "NiceTemplate",
     outerBounds: {
       width: width,
       height: height,

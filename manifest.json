@@ -7,9 +7,14 @@
     "16": "public/img/icon_16.png",
     "128": "public/img/icon_128.png"
   },
+  "permissions": [
+    "storage"
+  ],
   "app": {
     "background": {
-      "scripts": ["main.js"]
+      "scripts": [
+        "main.js"
+      ]
     }
   }
 }
